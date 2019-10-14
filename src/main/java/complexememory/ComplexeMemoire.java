@@ -3,7 +3,7 @@ package complexememory;
 import complexe.Complexe;
 
 public final class ComplexeMemoire {
-    private String history;
+    private static String history;
     private static int nbOp;
 
     public ComplexeMemoire(String pHist){
