@@ -4,7 +4,7 @@ package complexe;
 public final class Complexe {
     private final double r,i;
 
-    private Complexe(double pR, double pI) {
+    public Complexe(double pR, double pI) {
         r = pR;
         i = pI;
     }
